@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:visitapp/presentation/widgets/constants.dart';
+import 'package:visitapp/helpers/constants/constants.dart';
+
 
 class MyDrawer extends StatefulWidget {
   const MyDrawer({Key? key}) : super(key: key);

@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:visitapp/helpers/constants/constants.dart';
 
 class MyAppBar extends StatefulWidget implements PreferredSizeWidget  {
   const MyAppBar({Key? key}) : super(key: key);
@@ -17,7 +18,7 @@ class _MyAppBarState extends State<MyAppBar>  {
   Widget build(BuildContext context) {
     return AppBar(
       centerTitle: true,
-      backgroundColor: Color(0xffe7705d),
+      backgroundColor: kColorMain,
       title: Text("Visit Shymkent"),
       actions: [
         IconButton(onPressed: (){}, icon: Icon(Icons.qr_code)),
