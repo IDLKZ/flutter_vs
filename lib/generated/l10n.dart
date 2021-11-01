@@ -50,11 +50,11 @@ class S {
     return Localizations.of<S>(context, S);
   }
 
-  /// `nobody is perfect but me`
-  String get tima {
+  /// `Visit-Shymkent`
+  String get app_title {
     return Intl.message(
-      'nobody is perfect but me',
-      name: 'tima',
+      'Visit-Shymkent',
+      name: 'app_title',
       desc: '',
       args: [],
     );
