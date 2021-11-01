@@ -14,13 +14,9 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: MyAppBar(),
       drawer: MyDrawer(),
-      body:SafeArea(
-        child: Expanded(
-          child: Row(
-
-          ),
-        )
-      ),
+      body: SafeArea(
+        child: Center(),
+      )
     );
   }
 }
