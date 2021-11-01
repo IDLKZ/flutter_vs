@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:visitapp/presentation/widgets/app_bar.dart';
+import 'package:visitapp/presentation/widgets/drawer.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -12,8 +13,13 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: MyAppBar(),
+      drawer: MyDrawer(),
       body:SafeArea(
-        child: Text("text"),
+        child: Expanded(
+          child: Row(
+
+          ),
+        )
       ),
     );
   }

@@ -23,6 +23,7 @@ class _MyAppBarState extends State<MyAppBar>  {
         IconButton(onPressed: (){}, icon: Icon(Icons.qr_code)),
         IconButton(onPressed: (){}, icon: Icon(Icons.language_rounded)),
       ],
+      
     );
   }
 }
