@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       ],
       supportedLocales: S.delegate.supportedLocales,
       debugShowCheckedModeBanner: false,
-      theme: ThemeData.light(),
+      theme: ThemeData(fontFamily: "Oswald"),
       initialRoute: "/",
       routes:{
         "/":(context)=>const HomeScreen(),
